@@ -29,3 +29,13 @@ def map_to_double(source_array)
 
   doubled
 end
+
+def map_to_square(source_array)
+  squared = []
+
+  source_array.each do |x|
+    squared << x * x
+  end
+
+  squared 
+end
