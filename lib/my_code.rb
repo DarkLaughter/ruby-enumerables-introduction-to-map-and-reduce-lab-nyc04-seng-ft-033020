@@ -50,5 +50,15 @@ def reduce_to_total(source_array, starting_point = 0)
     total += x
   end
 
-  total 
+  total
+end
+
+def reduce_to_all_true(source_array)
+  all_true = []
+
+  source_array.each do |x|
+    return false if !source_array
+  end
+
+  all_true
 end
