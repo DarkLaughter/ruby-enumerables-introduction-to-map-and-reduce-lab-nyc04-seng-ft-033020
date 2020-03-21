@@ -1,6 +1,4 @@
 # My Code here....
-
-# - `map_to_no_change(source_array)`
 # - `map_to_double(source_array)`
 # - `map_to_square(source_array)
 
@@ -12,4 +10,14 @@ def map_to_negativize(source_array)
     negativize << negative
   end
     negativize
+end
+
+def map_to_no_change(source_array)
+  no_change = []
+
+  source_array.each do |x|
+    no_change << x
+  end
+
+  no_change
 end
