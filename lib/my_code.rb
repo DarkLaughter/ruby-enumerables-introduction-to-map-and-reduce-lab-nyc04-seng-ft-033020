@@ -1,6 +1,4 @@
 # My Code here....
-# - `map_to_double(source_array)`
-# - `map_to_square(source_array)
 
 def map_to_negativize(source_array)
   negativize = []
@@ -29,5 +27,5 @@ def map_to_double(source_array)
   doubled << x * 2
   end
 
-  doubled 
+  doubled
 end
