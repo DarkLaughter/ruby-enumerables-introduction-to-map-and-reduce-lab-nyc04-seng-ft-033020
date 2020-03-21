@@ -57,7 +57,7 @@ def reduce_to_all_true(source_array)
   all_true = []
 
   source_array.each do |x|
-    return false if !source_array[x]
+    return false if !x
   end
 
   all_true
