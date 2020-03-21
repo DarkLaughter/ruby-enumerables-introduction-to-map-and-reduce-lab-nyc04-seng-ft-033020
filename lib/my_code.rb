@@ -21,3 +21,13 @@ def map_to_no_change(source_array)
 
   no_change
 end
+
+def map_to_double(source_array)
+  doubled = []
+
+  source_array.each do |x|
+  doubled << x * 2
+  end
+
+  doubled 
+end
