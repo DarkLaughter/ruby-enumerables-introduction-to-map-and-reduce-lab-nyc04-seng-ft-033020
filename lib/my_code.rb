@@ -37,5 +37,19 @@ def map_to_square(source_array)
     squared << x * x
   end
 
-  squared 
+  squared
+end
+#
+# - `reduce_to_total(source_array, starting_point)`
+# - `reduce_to_all_true(source_array)`
+# - `reduce_to_any_true(source_array)
+
+def reduce_to_total(source_array, starting_point)
+  total = 0
+
+  source_array.each do |x|
+    total += x
+  end
+
+  total
 end
